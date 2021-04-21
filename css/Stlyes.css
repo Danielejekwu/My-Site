@@ -34,7 +34,7 @@ h1 {
 .h31 {
   color: #11999E;
   position: relative;
-  bottom: 100px;
+
 }
 
 .p {
@@ -45,7 +45,7 @@ h1 {
 
 .p11 {
   position: relative;
-  bottom: 100px;
+
 }
 
 .p1 {
@@ -78,10 +78,13 @@ h1 {
 }
 
 .star {
-  width: 18%;
+  width: 20%;
+  margin-left: 30px;
   position: relative;
-  left: 500px;
-  margin-bottom: 50px;
+  float: right;
+  bottom: 20px;
+
+
 }
 
 a {
@@ -106,7 +109,7 @@ hr {
 
 .hr1 {
   position: relative;
-  bottom: 100px;
+
 }
 
 .top-container {
@@ -191,4 +194,22 @@ hr {
   color: #eaf6f6;
   font-size: 75%;
   padding: 20px 0;
+}
+
+
+@media (max-width: 729px) {
+  .top-cloud{
+    position: static;
+  }
+  .bottom-cloud{
+    position: static;
+  }
+
+}
+
+@media (max-width: 627px) {
+  .mountain-image{
+    position: fixed;
+
+  }
 }
